@@ -477,14 +477,15 @@ pre {
 .newbutton {
   display: inline-block;
   padding: .75rem 1.25rem;
-  border-radius: 10rem;
+  border-radius: 1rem;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: .750rem;
   letter-spacing: .15rem;
   transition: all .3s;
   position: relative;
   overflow: hidden;
+
   z-index: 1;}
   .newbutton:after {
     content: '';
@@ -493,9 +494,17 @@ pre {
     left: 0;
     width: 100%;
     height: 100%;
+    color:black;
     background-color: #0cf;
-    border-radius: 10rem;
+    border-radius: 1rem;
     z-index: -2;
+  }
+  .carasoul{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding:2rem;
+    margin:1rem;
+    box-shadow:12px 13px 20px 20px  rgb(185, 171, 171);
   }
   .newbutton:before {
     content: '';
@@ -506,7 +515,7 @@ pre {
     height: 100%;
     background-color: darken(#0cf, 15%);
     transition: all .3s;
-    border-radius: 10rem;
+    border-radius: 1rem;
     z-index: -1;
   }
   .newbutton:hover {
@@ -7954,6 +7963,7 @@ h1, h2, h3, h4, h5,
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
+
 }
 .justify .row{
   display:flex;
@@ -7969,8 +7979,21 @@ h1, h2, h3, h4, h5,
    box-shadow: 5px 4px 5px 10px #e7e6eb;
 }
 .border:hover{
-   transition: all 1s 0.2s ease;
+  
+  
+    animation: moveToRight 1s ease;
 }
+@keyframes moveToRight {
+     0% {
+        transform: translateY(0px);
+      }
+     50% {
+        transform: translateY(-50px);
+      }
+       100% {
+        transform: translateY(-80px);
+      }
+    }
 .gallery {
   display: block;
   height: 450px;
