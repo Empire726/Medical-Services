@@ -8527,6 +8527,12 @@ textarea.form-control {
 .padding-top-bottom {
   padding-top: 120px;
   padding-bottom: 120px; }
+  .map {
+  height: 400px;
+  width: 100%; }
+  @media (max-width: 991.98px) {
+    .map {
+      height: 300px; } }
 
 #map {
   height: 400px;
