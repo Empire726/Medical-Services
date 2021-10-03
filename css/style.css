@@ -8529,7 +8529,7 @@ textarea.form-control {
   padding-bottom: 120px; }
   .map {
   height: 400px;
-  width: 100%; }
+  width: 90%; }
   @media (max-width: 991.98px) {
     .map {
       height: 300px; } }
