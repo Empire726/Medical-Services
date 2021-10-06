@@ -2905,7 +2905,7 @@ input[type="button"].btn-block {
   .input-group-append .input-group-text + .btn {
     margin-left: -1px; }
 
-.input-group-prepend {
+.input-group-prepend { 
   margin-right: -1px; }
 
 .input-group-append {
@@ -3250,7 +3250,8 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6; }
+  border-bottom: 1px solid #dee2e6; 
+}
   .nav-tabs .nav-item {
     margin-bottom: -1px; }
   .nav-tabs .nav-link {
@@ -3302,6 +3303,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  height:11vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3314,7 +3316,10 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  background:#ffffff;
+  /* border-bottom: 1px solid#ffffff; */
+}
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -3371,7 +3376,8 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+ }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -7362,9 +7368,11 @@ h1, h2, h3, h4, h5,
   color: #2f89fc !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: rgba(108, 230, 97, 0.1))))))))))))
+  
+  /* background: transparent !important; */
   position: absolute;
-  top: 20px;
+  /* top: 20px; */
   left: 0;
   right: 0;
   z-index: 3; }
@@ -8302,7 +8310,8 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   border: none;
-  border-bottom: 1px solid #e6e6e6; }
+  border-bottom: 1px solid #e6e6e6; 
+}
   .form-control:focus, .form-control:active {
     border-color: #cccccc; }
 
