@@ -2546,7 +2546,35 @@ input[type="button"].btn-block {
 .dropdown,
 .dropleft {
   position: relative; }
-
+  #card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+ @media screen and (max-width: 580px) and (min-width: 390px)  {
+    .border .flaticon{
+      width: 100%;
+      height: fit-content;
+    
+    }
+    .border{
+      height: auto;
+      width: 350px;
+      margin-left:1rem;
+    }
+  }
+  @media screen and (max-width: 390px) and (min-width: 200px) {
+.border .flaticon{
+      width: 100%;
+      height: fit-content;
+    
+    }
+    .border{
+      height: auto;
+      width: 220px;
+      margin-left:0.5rem;
+    }
+  }
 .dropdown-toggle::after {
   display: inline-block;
   width: 0;
@@ -3384,7 +3412,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color:transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
   .navbar-toggler:hover, .navbar-toggler:focus {
