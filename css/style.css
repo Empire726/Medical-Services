@@ -2553,6 +2553,9 @@ input[type="button"].btn-block {
   }
  @media screen and (max-width: 580px) and (min-width: 390px)  {
     .border .flaticon{
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
       width: 100%;
       height: fit-content;
     
@@ -2563,7 +2566,7 @@ input[type="button"].btn-block {
       margin-left:1rem;
     }
   }
-  @media screen and (max-width: 390px) and (min-width: 200px) {
+  @media screen and (max-width: 390px) and (min-width: 300px) {
 .border .flaticon{
       width: 100%;
       height: fit-content;
@@ -2571,8 +2574,20 @@ input[type="button"].btn-block {
     }
     .border{
       height: auto;
-      width: 220px;
+      width: 250px;
       margin-left:0.5rem;
+    }
+  }
+  @media screen and (max-width: 300px) and (min-width: 200px){
+    .border .flaticon{
+      width: 100%;
+      height: fit-content;
+    
+    }
+    .border{
+      height: auto;
+      width: 180px;
+      margin-left:5px;
     }
   }
 .dropdown-toggle::after {
@@ -7661,6 +7676,19 @@ h1, h2, h3, h4, h5,
           color: #fff;
           line-height: 1.2;
           font-weight: 400; }
+           @media (max-width: 400px){
+               .owl-carousel.home-slider .slider-item {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 600px;
+      }
+           }
+           @media (max-width: 600px){
+               .nones{
+                 display:none;
+               }
+           }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 40px; } }
