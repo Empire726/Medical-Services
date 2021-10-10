@@ -5109,7 +5109,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #343a40 !important; }
+  background-color:#2f89fc!important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8107,11 +8107,7 @@ h1, h2, h3, h4, h5,
   border:1px solid white;
    box-shadow: 5px 4px 5px 10px #e7e6eb;
 }
-.border:hover{
-  
-  
-    animation: moveToRight 1s ease;
-}
+
 @keyframes moveToRight {
      0% {
         transform: translateY(0px);
